@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma Mistri</string>
+    <string name="tab_calc">ಲೆಕ್ಕ</string>
+    <string name="tab_team">ತಂಡ</string>
+    <string name="tab_photos">ಫೋಟೋ</string>
+    <string name="tab_rates">ದರ</string>
+
+    <string name="length_m">ಉದ್ದ (m)</string>
+    <string name="height_m">ಎತ್ತರ (m)</string>
+    <string name="thickness">ಗೋಡೆ ದಪ್ಪ</string>
+    <string name="calculate">ಲೆಕ್ಕ ಮಾಡಿ</string>
+    <string name="bricks">ಇಟ್ಟಿಗೆ</string>
+    <string name="cement">ಸಿಮೆಂಟ್ ಚೀಲ</string>
+    <string name="sand_cft">ಮರಳು (CFT)</string>
+    <string name="total_cost">ಒಟ್ಟು ವೆಚ್ಚ</string>
+
+    <string name="add_worker">ಕೆಲಸಗಾರ ಸೇರಿಸಿ</string>
+    <string name="worker_name">ಹೆಸರು</string>
+    <string name="daily_wage">ದಿನದ ಕೂಲಿ (₹)</string>
+    <string name="present">P</string>
+    <string name="absent">A</string>
+    <string name="half">H</string>
+    <string name="advance">ಮುಂಗಡ</string>
+    <string name="balance_due">ಬಾಕಿ</string>
+
+    <string name="add_photo">ಫೋಟೋ ಸೇರಿಸಿ</string>
+    <string name="caption">ಶೀರ್ಷಿಕೆ</string>
+
+    <string name="rate_brick">ಇಟ್ಟಿಗೆ ದರ (₹/ಪೀಸ್)</string>
+    <string name="rate_cement">ಸಿಮೆಂಟ್ ದರ (₹/ಚೀಲ)</string>
+    <string name="rate_sand">ಮರಳು ದರ (₹/CFT)</string>
+    <string name="save">ಉಳಿಸಿ</string>
+    <string name="delete">ಅಳಿಸಿ</string>
+</resources>

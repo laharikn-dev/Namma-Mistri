@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="@drawable/bg_card"
+    android:padding="14dp" android:layout_marginBottom="10dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView android:id="@+id/tvName" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:textColor="@color/text" android:textSize="18sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/tvWage" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="@color/accent"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="10dp">
+        <Button android:id="@+id/btnP" android:layout_width="0dp"
+            android:layout_height="44dp" android:layout_weight="1"
+            android:text="+ P" android:textColor="@color/text"
+            android:background="@drawable/bg_input"/>
+        <Button android:id="@+id/btnH" android:layout_width="0dp"
+            android:layout_height="44dp" android:layout_weight="1"
+            android:text="+ H" android:textColor="@color/text"
+            android:background="@drawable/bg_input" android:layout_marginStart="6dp"/>
+        <Button android:id="@+id/btnA" android:layout_width="0dp"
+            android:layout_height="44dp" android:layout_weight="1"
+            android:text="+ A" android:textColor="@color/text"
+            android:background="@drawable/bg_input" android:layout_marginStart="6dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="8dp">
+        <EditText android:id="@+id/etAdvance" android:layout_width="0dp"
+            android:layout_height="44dp" android:layout_weight="1"
+            android:background="@drawable/bg_input" android:padding="10dp"
+            android:hint="@string/advance" android:inputType="number"
+            android:textColor="@color/text" android:textColorHint="@color/muted"/>
+        <Button android:id="@+id/btnAdv" android:layout_width="wrap_content"
+            android:layout_height="44dp" android:text="+ ₹"
+            android:textColor="@color/text" android:background="@drawable/bg_btn_primary"
+            android:layout_marginStart="6dp" android:paddingHorizontal="14dp"/>
+    </LinearLayout>
+
+    <TextView android:id="@+id/tvSummary" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="10dp"
+        android:layout_marginTop="10dp" android:background="@drawable/bg_input"
+        android:textColor="@color/text" android:textSize="14sp"/>
+
+    <TextView android:id="@+id/tvBalance" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="14dp"
+        android:layout_marginTop="6dp" android:background="@drawable/bg_btn_primary"
+        android:textColor="@color/text" android:textSize="18sp" android:textStyle="bold"/>
+
+    <Button android:id="@+id/btnDelete" android:layout_width="match_parent"
+        android:layout_height="40dp" android:layout_marginTop="8dp"
+        android:text="@string/delete" android:textColor="@color/destructive"
+        android:background="@android:color/transparent"/>
+</LinearLayout>

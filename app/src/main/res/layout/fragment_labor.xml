@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_card"
+        android:padding="14dp">
+        <EditText android:id="@+id/etName" android:layout_width="match_parent"
+            android:layout_height="56dp" android:background="@drawable/bg_input"
+            android:hint="@string/worker_name" android:padding="12dp"
+            android:textColor="@color/text" android:textColorHint="@color/muted"/>
+        <EditText android:id="@+id/etWage" android:layout_width="match_parent"
+            android:layout_height="56dp" android:background="@drawable/bg_input"
+            android:hint="@string/daily_wage" android:padding="12dp"
+            android:inputType="number" android:textColor="@color/text"
+            android:textColorHint="@color/muted" android:layout_marginTop="8dp"/>
+        <Button android:id="@+id/btnAdd" android:layout_width="match_parent"
+            android:layout_height="56dp" android:background="@drawable/bg_btn_primary"
+            android:text="@string/add_worker" android:textColor="@color/text"
+            android:textStyle="bold" android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvWorkers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>
